@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://nileshpawars.github.io/',
+        target: 'https://nileshpawars.github.io/task-tracker/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
