@@ -5,13 +5,13 @@ import About from "@/views/About.vue";
 const routes = [
     {
         name: 'Home',
-        path: '/task-tracker/',
+        path: '/',
         component: Home
     },
 
     {
         name: 'About',
-        path: '/task-tracker/about',
+        path: '/about',
         component: About
     }
 ];
