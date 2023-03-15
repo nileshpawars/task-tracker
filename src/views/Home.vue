@@ -60,10 +60,6 @@
   
             const data = await res.json();
             this.tasks = this.tasks.map((task) => task.id === id ? {...task, reminder: data.reminder} : task
-  
-          // this.tasks = this.tasks.map((task) => 
-          //   task.id === id ? {...task, reminder: !task.reminder} : task
-          )
         },
   
         async fetchTasks() {
